@@ -48,7 +48,7 @@ categories along with the reasoning behind the decision, including “no error" 
 | document            | Document text                              |
 | cnt_llama3_tokens   | Document lenght                            |
 | llm_output          | Raw output of fine-grained feedback (before JSON parsing) |
-| pred_factual_labels | List of binary labels for each sentence  (0: factually correct, 1: otherwise)|
+| pred_general_factuality_labels | List of binary labels for each sentence  (0: factually correct, 1: otherwise)|
 
 <br/> 
 
