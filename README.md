@@ -13,7 +13,7 @@ Learning to Verify Summary Facts with Fine-Grained LLM Feedback
   <p>Authors: Jihwan Oh, Jeonghwan Choi, Nicole Hee-Yeon Kim, Taewon Yun, Hwanjun Song</p>
 
 <p align="center">
-  <img src="FineSumFact_main.png" alt="" width="500">
+  <img src="FineSumFact_main.png" alt="" width="300">
 </p>
 
 </div>
