@@ -53,7 +53,7 @@ categories along with the reasoning behind the decision, including “no error" 
 <br/> 
 
 ## Human feedback
-We aggregate all the available human-labeled datasets for sentence-level fact verification, including [AggreFact](https://aclanthology.org/2023.acl-long.650/), [DiaSumFact](https://aclanthology.org/2023.acl-long.377/), [TofuEval](https://aclanthology.org/2024.naacl-long.251/), and [Ramprasad'24](https://aclanthology.org/2024.eacl-short.7/). The aggregated data contains 6,546 document-summary pairs, each of which has sentence-level binary labels – “0" for no error and “1" for a fact error. ```human_label_train.json```: 5,853 feedbacks are used for training set and 693 feedbacks are used for test set(```human_label_test.json```).
+We aggregate all the available human-labeled datasets for sentence-level fact verification, including [AggreFact](https://aclanthology.org/2023.acl-long.650/), [DiaSumFact](https://aclanthology.org/2023.acl-long.377/), [TofuEval](https://aclanthology.org/2024.naacl-long.251/), and [Ramprasad'24](https://aclanthology.org/2024.eacl-short.7/). The aggregated data contains 6,546 document-summary pairs, each of which has sentence-level binary labels – “0" for no error and “1" for a fact error. ```human_label_train.json``` contains 5,853 feedbacks used for the training set and ```human_label_test.json``` contains 693 feedbacks used for the test set.
 
 | Field               | Description                                |
 |---------------------|--------------------------------------------|
