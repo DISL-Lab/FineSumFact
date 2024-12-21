@@ -43,12 +43,12 @@ categories along with the reasoning behind the decision, including “no error" 
 | doc_id              | ID in source dataset                       |
 | source              | Source dataset name                        |
 | split               | Trainset                                   |
-| model_summary       | Model summary (sentence-level, list)       |
+| model_summary       | Summary text by LLM (sentence-level)       |
 | summarizer          | Summarizer name                            |
-| document            | Document                                   |
+| document            | Document text                              |
 | cnt_llama3_tokens   | Document lenght                            |
-| llm_output          | Raw output of fine-grained feedback        |
-| pred_factual_labels | Binary label list (0: fact, 1: non-fact)   |
+| llm_output          | Raw output of fine-grained feedback (before JSON parsing) |
+| pred_factual_labels | Binary label  (0: fact, 1: non-fact)       |
 
 <br/> 
 
@@ -58,8 +58,8 @@ We aggregate all the available human-labeled datasets for sentence-level fact ve
 | Field               | Description                                |
 |---------------------|--------------------------------------------|
 | id                  | Data unique ID                             |
-| doc                 | Document                                   |
-| model_summary       | Model summary (sentence-level, list)       |
+| doc                 | Document text                              |
+| model_summary       | Summary text by LLM (sentence-level)       |
 | label               | Binary label (0: fact, 1: non-fact)        |
 | source              | Source dataset name                        |
 <br/> 
