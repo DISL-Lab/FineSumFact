@@ -71,7 +71,7 @@ Please consider citation if our paper is useful in your research.
 @inproceedings{oh-etal-2025-learning,
   title = {Learning to Verify Summary Facts with Fine-Grained LLM Feedback},
   author = {Oh, Jihwan and Choi, Jeonghwan and Kim, Nicole Hee-Yoen and Yun, Taewon and Song, Hwanjun},
-  booktitle = {COLING},
+  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics: COLING 2025},
   year = {2025}
 }
 ```
