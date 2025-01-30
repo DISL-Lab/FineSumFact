@@ -68,7 +68,12 @@ We aggregate all the available human-labeled datasets for sentence-level fact ve
 
 Please consider citation if our paper is useful in your research.
 ```BibTeX
-TBD
+@inproceedings{oh-etal-2025-learning,
+  title = {Learning to Verify Summary Facts with Fine-Grained LLM Feedback},
+  author = {Oh, Jihwan and Choi, Jeonghwan and Kim, Nicole Hee-Yoen and Yun, Taewon and Song, Hwanjun},
+  booktitle = {COLING},
+  year = {2025}
+}
 ```
 
 ###### *This work was done @ KAIST Data Intelligence System Lab*
